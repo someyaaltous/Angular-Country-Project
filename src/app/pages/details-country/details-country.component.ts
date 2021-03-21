@@ -33,7 +33,10 @@ export class DetailsCountryComponent implements OnInit {
       let name = params.get('name');
       if (name) {
         this.countryService.getDetails(name).subscribe(
+          
           (res) => {
+            this.showBorders=false
+
             this.countriesDetails = res;
             this.getDetilesAnotherCountry();
 
