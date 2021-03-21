@@ -13,6 +13,6 @@ export class CountryService {
   }
 
   getDetails(name: string):Observable<any>  {
-    return this.http.get('https://restcountries.eu/rest/v2/name/' + name);
+    return this.http.get('https://restcountries.eu/rest/v2/name/' + name+"?fullText=true");
   }
 }
