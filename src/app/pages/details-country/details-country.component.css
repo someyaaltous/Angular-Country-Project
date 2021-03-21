@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  width:25rem;
+  display: flex;
+  align-self: center;
+  margin: 1rem;
+}
+
+.card-title {
+  font-weight: 600;
+}
+.backButton {
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem;
+}
+.borderList {
+  display: flex;
+  flex-direction: column;
+}
+
+.borderButton {
+  color: black;
+  font-weight: 600;
+}
+.borderBtn {
+  color: black;
+}
+.loading {
+  display: flex;
+  justify-content: center;
+}

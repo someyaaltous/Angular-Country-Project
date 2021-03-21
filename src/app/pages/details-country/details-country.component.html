@@ -1,0 +1,48 @@
+<div class="container">
+  <div *ngFor="let countryDetail of countriesDetails" class="card">
+    <img [src]="countryDetail.flag" class="card-img-top" alt="..." />
+    <div class="card-body">
+      <h5 class="card-title">{{ countryDetail.name }}</h5>
+      <p class="card-text">subregion: {{ countryDetail.subregion }}</p>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">capital: {{ countryDetail.capital }}</li>
+      <li class="list-group-item">
+        population: {{ countryDetail.population }}
+      </li>
+      <li class="list-group-item">timezones: {{ countryDetail.timezones }}</li>
+    </ul>
+    <div *ngIf="countryDetail.borders.length" class="card-body borderList">
+      <button (click)="onClick()" class="btn btn-link borderButton">
+        Borders
+      </button>
+      <div *ngIf="showBorders">
+        <div *ngFor="let border of borders">
+          <button
+            type="button"
+            class="btn btn-link borderBtn"
+            [routerLink]="['/countries/', border.name]"
+          >
+            {{ border.name }}
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="backButton">
+  <button
+    *ngIf="!errorON"
+    type="button"
+    class="btn btn-dark"
+    (click)="onClickBack()"
+  >
+    Back
+  </button>
+</div>
+<div class="loading">
+  <div *ngIf="loadingON && !errorON" class="spinner-border" role="status">
+    <span class="sr-only">Loading...</span>
+  </div>
+</div>
+<page-not-found *ngIf="errorON"></page-not-found>

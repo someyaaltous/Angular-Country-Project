@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navBarRoute {
+  font-size: 2rem;
+  color: black;
+}
+
+.moonDark {
+  color: black;
+}
