@@ -1,0 +1,35 @@
+.card {
+  width: 14rem;
+  margin: 1.8rem;
+}
+
+.custom-select {
+  width: 13rem;
+  margin-left: 5rem;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.formSection {
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5rem;
+}
+.searchPar {
+  border-radius: 0.25rem;
+}
+.countryName {
+  font-weight: 600;
+}
+.countryLink{
+  color: black;
+}
+.loading{
+  display: flex;
+  justify-content: center;
+}
+.form-control{
+  width: 25rem;
+}

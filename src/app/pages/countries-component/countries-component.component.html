@@ -1,0 +1,45 @@
+<div class="formSection">
+  <label name="search">
+    <input
+      [(ngModel)]="searchBy"
+      class="form-control"
+      (ngModelChange)="searchCountry($event)"
+      name="searchBy"
+      type="form-control"
+      placeholder="Search for a country..... "
+    />
+  </label>
+
+  <select
+    [(ngModel)]="sortBy"
+    (change)="sortByRegion($event)"
+    name="sortBy"
+    id="sortBy"
+    class="custom-select"
+  >
+    <option *ngFor="let region of regionList" [value]="region.name">
+      {{ region.name }}
+    </option>
+  </select>
+</div>
+
+<div class="container">
+  <div *ngFor="let country of countries" class="card">
+    <a [routerLink]="['/countries/', country.name]" class="countryLink">
+      <img [src]="country.flag" class="card-img-top" alt="flag for country" />
+      <div class="card-body">
+        <h5 class="countryName">{{ country.name }}</h5>
+        <h6>population: {{ country.population }}</h6>
+        <h6>region: {{ country.region }}</h6>
+        <h6>capital: {{ country.capital }}</h6>
+      </div>
+    </a>
+  </div>
+  <h2 *ngIf="resluteSearch">There is no country with this name!!</h2>
+</div>
+
+<div class="loading">
+  <div *ngIf="loadingON" class="spinner-border" role="status">
+    <span class="sr-only">Loading...</span>
+  </div>
+</div>
