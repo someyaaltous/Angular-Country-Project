@@ -1,13 +1,9 @@
 .container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .navBarRoute {
-  font-size: 2rem;
-  color: black;
-}
-
-.moonDark {
+  font-size: 2.1rem;
   color: black;
 }
