@@ -1,8 +1,8 @@
 # [Angular-Country-Project](https://angular-country-app.web.app/countries)
 
 ## Introduction:
-- This project includes all Countries in the world, with some information for each country such as the name, flag, population and capital in the countries page 
-- Also we have a details page includes additional information about any country like border countries, subregion, time zone
+- This project displays all Countries in the world, with some information for each country such as the name, flag, population and capital in the countries page 
+- Also the site has a details page includes additional information about any country like border countries, subregion, time zone
 
 
 ## How to Use this project !!
