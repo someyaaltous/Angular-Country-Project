@@ -1,2 +1,2 @@
 # Angular-country-project
-# [Project](https://angular-country-project.web.app/countries)
+# [Project](https://angular-country-app.web.app/countries)
