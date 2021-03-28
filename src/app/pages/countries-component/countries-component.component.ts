@@ -10,9 +10,10 @@ import { Country } from '../modules/Country';
 export class CountriesComponent implements OnInit {
   countries: Array<Country> = [];
   regionList = region;
-  sortBy = 'All';
-  countryName = '';
-  searchBy: string = '';
+  sortby = 'All';
+  nameCountry = '';
+  detilesCountry = false;
+  searchby: string = '';
   allCountry: Array<Country> = [];
   resluteSearch = false;
   loadingON = false;
@@ -32,12 +33,12 @@ export class CountriesComponent implements OnInit {
     });
   }
   sortByRegion(event: any) {
-    this.sortBy = event.target.value;
+    this.sortby = event.target.value;
 
     this.countries = this.applyFilters(
       this.allCountry,
-      this.countryName,
-      this.sortBy
+      this.nameCountry,
+      this.sortby
     );
     if (this.countries.length) {
       this.resluteSearch = false;
@@ -46,11 +47,11 @@ export class CountriesComponent implements OnInit {
     }
   }
   searchCountry(event: any) {
-    this.countryName = event;
+    this.nameCountry = event;
     this.countries = this.applyFilters(
       this.allCountry,
-      this.countryName,
-      this.sortBy
+      this.nameCountry,
+      this.sortby
     );
     if (this.countries.length) {
       this.resluteSearch = false;
