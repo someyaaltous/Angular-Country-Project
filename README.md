@@ -13,10 +13,11 @@
 - As a user, I can see all country in home page 
 - AS a user, I can click in any country
 - As a user, I can see more information about this country in details page 
-- As a user, I can clice in border button to see border countries
-- As a user, I can clice in border countries and go to details page about this country
-- As a user, I can click in back button to get back to the page before
+- As a user, I can clice on border button to see border countries
+- As a user, I can clice on border countries and go to details page about this country
+- As a user, I can click on back button to get back to the page before
 - As I user, if I went to go to home bage I can click in Where in the world? on header 
+- As I user, I can click on Dark Theme to change mode from light to dark Also, I can reverse the mode from dark to light
 
 
 
