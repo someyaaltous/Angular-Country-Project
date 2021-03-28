@@ -3,10 +3,20 @@
   justify-content: center;
 }
 .card {
-  width:25rem;
+  width: 25rem;
   display: flex;
   align-self: center;
-  margin: 1rem;
+  background-color: var(--primary-color);
+  color: var(--text-color);
+}
+.card-body {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+}
+
+.list-group-item {
+  background-color: var(--primary-color);
+  color: var(--text-color);
 }
 
 .card-title {
@@ -25,11 +35,19 @@
 .borderButton {
   color: black;
   font-weight: 600;
+  background-color: var(--primary-color);
+  color: var(--text-color);
 }
 .borderBtn {
   color: black;
+  background-color: var(--primary-color);
+  color: var(--text-color);
 }
 .loading {
   display: flex;
   justify-content: center;
+}
+.backButton{
+  display: flex;
+  justify-content: start;
 }
