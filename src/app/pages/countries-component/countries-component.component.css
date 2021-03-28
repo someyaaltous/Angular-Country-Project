@@ -1,6 +1,8 @@
 .card {
   width: 14rem;
   margin: 1.8rem;
+  background-color: var(--primary-color);
+  color: var(--text-color);
 }
 
 .custom-select {
@@ -23,13 +25,27 @@
 .countryName {
   font-weight: 600;
 }
-.countryLink{
+.countryLink {
   color: black;
 }
-.loading{
+.loading {
   display: flex;
   justify-content: center;
 }
-.form-control{
+.form-control {
   width: 25rem;
+  background-color: var(--primary-color);
+  color: var(--text-color);
+}
+.card-body {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+}
+.custom-select {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+}
+::placeholder{
+  background-color: var(--primary-color);
+  color: var(--text-color);
 }

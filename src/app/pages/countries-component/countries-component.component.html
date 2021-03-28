@@ -1,20 +1,20 @@
 <div class="formSection">
   <label name="search">
     <input
-      [(ngModel)]="searchBy"
+      [(ngModel)]="searchby"
       class="form-control"
       (ngModelChange)="searchCountry($event)"
-      name="searchBy"
+      name="searchby"
       type="form-control"
       placeholder="Search for a country..... "
     />
   </label>
 
   <select
-    [(ngModel)]="sortBy"
+    [(ngModel)]="sortby"
     (change)="sortByRegion($event)"
-    name="sortBy"
-    id="sortBy"
+    name="sortby"
+    id="sortby"
     class="custom-select"
   >
     <option *ngFor="let region of regionList" [value]="region.name">
@@ -29,9 +29,9 @@
       <img [src]="country.flag" class="card-img-top" alt="flag for country" />
       <div class="card-body">
         <h5 class="countryName">{{ country.name }}</h5>
-        <h6>population: {{ country.population }}</h6>
-        <h6>region: {{ country.region }}</h6>
-        <h6>capital: {{ country.capital }}</h6>
+        <h6>Population: {{ country.population }}</h6>
+        <h6>Region: {{ country.region }}</h6>
+        <h6>Capital: {{ country.capital }}</h6>
       </div>
     </a>
   </div>
