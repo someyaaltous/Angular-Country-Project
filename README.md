@@ -10,14 +10,14 @@
 - Also the site has a details page includes additional information about any country like border countries, subregion, time zone.
 
 ## User story
-- As a user, I can see all country in home page 
-- AS a user, I can click in any country
-- As a user, I can see more information about this country in details page 
-- As a user, I can clice on border button to see border countries
-- As a user, I can clice on border countries and go to details page about this country
-- As a user, I can click on back button to get back to the page before
-- As I user, if I went to go to home bage I can click in Where in the world? on header 
-- As I user, I can click on Dark Theme to change mode from light to dark Also, I can reverse the mode from dark to light
+### As a user, I can
+-  See all country in home page 
+-  Click in any country to see more information about this country in details page 
+-  Clice on border button to see border countries
+-  Clice on border countries and go to details page about this country
+-  Click on back button to get back to the page before
+-  Click in Where in the world? on navBar to go on home bage  
+-  Click on Dark Theme to change mode from light to dark Also, I can reverse the mode from dark to light
 
 
 
