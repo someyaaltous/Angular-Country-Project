@@ -1,6 +1,8 @@
-# [Angular-Country-Project](https://angular-country-app.web.app/countries)
+# Angular-Country-Projects
 
-- This project is to apply what we have learned about Angluar  
+### [Link website](https://angular-country-app.web.app/countries)
+
+- This the project for apply what we have learned about Angular
 
 ## Introduction:
 - This project displays all Countries in the world, with some information for each country such as the name, flag, population and capital in the countries page.
