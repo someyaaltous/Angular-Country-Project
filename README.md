@@ -11,14 +11,15 @@
 
 ## User story
 ### As a user, I can
--  See all country in home page 
--  Click in any country to see more information about this country in details page 
--  Clice on border button to see border countries
--  Clice on border countries and go to details page about this country
--  Click on back button to get back to the page before
--  Click in Where in the world? on navBar to go on home bage  
--  Click on Dark Theme to change mode from light to dark Also, I can reverse the mode from dark to light
-
+-  See all country in home page.
+-  Search for any country by name.
+-  Choose any continent and see the countries in it and I can search only within that continent.
+-  Click on Dark Theme on header to change mode from light to dark Also, I can reverse the mode from dark to light.
+-  Click in any country to see more information about this country in details page.
+-  Clice on border button to see border countries.
+-  Clice on border countries and go to details page about this country.
+-  Click on back button to get back to the page before.
+-  Click in Where in the world? on header to go on home bage.
 
 
 ## How to Use this project !!
