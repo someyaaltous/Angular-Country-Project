@@ -42,7 +42,7 @@ ng test
 ## Used Technologies
 - Anguler
 - Typescript 
-- 
+
 ### for css
 - Bootstrap
 
