@@ -51,5 +51,5 @@ ng test
 ### for css
 - Bootstrap
 
-### for Deply
+### for deploy
 - Firebase
