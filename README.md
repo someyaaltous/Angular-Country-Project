@@ -1,4 +1,4 @@
-# Angular-Country-Projects
+# Angular-Country-Project
 
 - This project is for apply what we have learned about Angular
 
