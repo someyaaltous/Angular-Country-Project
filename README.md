@@ -48,10 +48,10 @@ ng test
 - Anguler
 - Typescript 
 
-### for css
+### For css
 - Bootstrap
 
-### for deploy
+### For deploy
 - Firebase
 
 ### API
