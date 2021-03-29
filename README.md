@@ -1,6 +1,6 @@
 # Angular-Country-Projects
 
-- This the project for apply what we have learned about Angular
+- This project is for apply what we have learned about Angular
 
 - ### [Link website](https://angular-country-app.web.app/countries)
 
