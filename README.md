@@ -55,5 +55,5 @@ ng test
 - Firebase
 
 ### API
-- [REST Countries](https://restcountries.eu/)
+- [REST Countries API](https://restcountries.eu/)
 
