@@ -45,7 +45,7 @@ ng test
 - You will see browser window about this test and see bass test and failing
 
 ## Used Technologies
-- Anguler
+- Angular
 - Typescript 
 
 ### For css
