@@ -15,11 +15,11 @@
 -  Search for any country by name.
 -  Choose any continent and see the countries in it and I can search only within that continent.
 -  Click on Dark Theme on header to change mode from light to dark Also, I can reverse the mode from dark to light.
--  Click in any country to see more information about this country in details page.
+-  Click on any country card  to see more information about this country in details page.
 -  Clice on border button to see border countries.
 -  Clice on border countries and go to details page about this country.
 -  Click on back button to get back to the page before.
--  Click in Where in the world? on header to go on home bage.
+-  Click on Where in the world? on header to go on home bage.
 
 
 ## How to Use this project !!
